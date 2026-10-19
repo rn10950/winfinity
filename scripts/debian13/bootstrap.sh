@@ -10,7 +10,7 @@
 #
 
 # define vars
-winfinityGitUrl="https://github.com/octocat/octocat.github.io.git"
+winfinityGitUrl="https://github.com/rn10950/winfinity.git"
 WINFINITY_SOURCE_DIR="/var/tmp/winfinity-source"
 IS_BOOTSTRAP="1"
 
