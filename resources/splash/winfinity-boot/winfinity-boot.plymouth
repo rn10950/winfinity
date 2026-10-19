@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=winfinity-boot
+Description=plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/winfinity-boot
+ScriptFile=/usr/share/plymouth/themes/winfinity-boot/winfinity-boot.script

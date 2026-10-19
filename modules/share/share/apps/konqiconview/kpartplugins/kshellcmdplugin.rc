@@ -1,0 +1,10 @@
+<!DOCTYPE kpartplugin>
+<kpartplugin library="konq_shellcmdplugin" name="kshellcmdplugin" >
+ <MenuBar>
+  <Menu name="tools" >
+   <text>&amp;Tools</text>
+   <Action name="executeshellcommand" />
+  </Menu>
+ </MenuBar>
+ <ActionProperties/>
+</kpartplugin>

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash -c "$HOME/.winfinity/scripts/AUTOEXEC.sh"
+Hidden=false
+NoDisplay=false
+X-TDE-AutostartOnce=false
+Name=Winfinity AUTOEXEC Script
+Comment=Runs at every TDE startup

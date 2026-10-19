@@ -1,0 +1,6 @@
+# Based on grassmunk's Chicago95
+[Icon Theme]
+Name=Windows Cursor Theme - Classic
+Comment= Classic Windows white cursors.
+Example=left_ptr
+Inherits = default

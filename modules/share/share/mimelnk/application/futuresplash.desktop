@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=MimeType
+MimeType=application/futuresplash
+Icon=netscape_doc
+Comment=Netscape Shockwave Flash
+X-TDE-AutoEmbed=true
+X-TDE-nsplugin=true
+Patterns=*.spl
+Name=FutureSplash Player

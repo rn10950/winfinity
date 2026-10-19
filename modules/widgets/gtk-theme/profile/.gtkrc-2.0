@@ -1,0 +1,14 @@
+# This file was written by TDE
+# You can edit it in the TDE control center, under "GTK Styles and Fonts"
+
+include "$HOME/.themes/Redmond9x/gtk-2.0/gtkrc"
+
+style "user-font"
+{
+	font_name="Microsoft Sans Serif 8"
+}
+widget_class "*" style "user-font"
+
+gtk-theme-name="Redmond9x"
+gtk-font-name="Microsoft Sans Serif 8"
+gtk-icon-theme-name="Winfinity-Classic"

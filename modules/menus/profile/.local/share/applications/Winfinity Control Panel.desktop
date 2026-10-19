@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Change Winfinity's Appearance
+Comment[en_US]=Change Winfinity's Appearance
+Exec[$e]=python3 /opt/winfinity/winfinity-config/winfinity-control.py
+GenericName=
+GenericName[en_US]=
+Icon=kpersonalizer
+MimeType=
+Name=Winfinity Control Panel
+Name[en_US]=Winfinity Control Panel
+Path[$e]=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-TDE-SubstituteUID=false
+X-TDE-Username=

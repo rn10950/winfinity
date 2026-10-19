@@ -1,0 +1,10 @@
+<!DOCTYPE kpartplugin>
+<kpartplugin library="libkimgallery" >
+ <MenuBar>
+  <Menu name="tools" >
+   <text>&amp;Tools</text>
+   <Action name="create_img_gallery" />
+  </Menu>
+ </MenuBar>
+ <ActionProperties/>
+</kpartplugin>

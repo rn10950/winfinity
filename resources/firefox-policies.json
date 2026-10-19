@@ -1,0 +1,61 @@
+{
+  "policies": {
+    "AIControls": {
+      "Default": {
+        "Value": "blocked"
+      }
+    },
+    "DisableFeedbackCommands": true,
+    "DisableFirefoxStudies": true,
+    "DisableTelemetry": true,
+    "DisplayMenuBar": "default-on",
+    "EnableTrackingProtection": {
+      "Cryptomining": true,
+      "Value": true
+    },
+    "ExtensionSettings": {
+      "*": {
+        "installation_mode": "allowed",
+        "temporarily_allow_weak_signatures": true
+      },
+      "uBlock0@raymondhill.net": {
+        "default_area": "navbar",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+        "installation_mode": "normal_installed",
+        "private_browsing": true,
+        "temporarily_allow_weak_signatures": true,
+        "updates_disabled": false
+      }
+    },
+    "FirefoxHome": {
+      "Pocket": false,
+      "SponsoredPocket": false,
+      "SponsoredTopSites": false,
+      "Weather": false
+    },
+    "FirefoxSuggest": {
+      "ImproveSuggest": false,
+      "SponsoredSuggestions": false,
+      "WebSuggestions": false
+    },
+    "SkipTermsOfUse": true,
+    "Preferences": {
+        "browser.tabs.inTitlebar": {
+            "Value": 0,
+            "Status": "default"
+        },
+        "browser.urlbar.trimURLs": {
+          "Value": false,
+          "Status": "default"
+        },
+        "browser.urlbar.formatting.enabled": {
+          "Value": false,
+          "Status": "default"
+        },
+        "widget.use-xdg-desktop-portal.file-picker": {
+        "Value": 1,
+        "Status": "default"
+        }
+    }
+  }
+}

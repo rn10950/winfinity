@@ -1,0 +1,3 @@
+[submodule "config/winfinity-config"]
+	path = config/winfinity-config
+	url = https://github.com/rn10950/winfinity-config.git

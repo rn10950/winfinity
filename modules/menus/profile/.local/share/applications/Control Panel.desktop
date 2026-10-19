@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec[$e]=kcontrol -caption "%c" %i %m
+GenericName=
+Icon=kcontrol
+Name=Control Panel
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-TDE-SubstituteUID=false
+X-TDE-Username=

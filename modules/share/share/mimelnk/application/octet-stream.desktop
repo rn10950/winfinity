@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=Windows Executable
+Comment[en_US]=Windows Executable
+Hidden=false
+Icon=exec
+Patterns=*.exe;*.EXE;*.msi;*.MSI

@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Redmond Classic
+activeBackground=0,0,128
+activeBlend=16,132,208
+activeForeground=255,255,255
+activeTitleBtnBg=195,195,195
+alternateBackground=238,246,255
+background=195,195,195
+buttonBackground=195,195,195
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+frame=195,195,195
+handle=195,195,195
+inactiveBackground=156,156,156
+inactiveBlend=195,195,195
+inactiveForeground=214,214,214
+inactiveFrame=195,195,195
+inactiveHandle=195,195,195
+inactiveTitleBtnBg=195,195,195
+linkColor=0,0,238
+selectBackground=0,0,128
+selectForeground=255,255,255
+shadeSortColumn=true
+visitedLinkColor=82,24,139
+windowBackground=255,255,255
+windowForeground=0,0,0

@@ -1,0 +1,113 @@
+body {
+  background-color:   window;
+  font-family:      "MS Sans Serif","Arial","Microsoft Sans Serif",sans-serif;
+  font-size:      11px;
+  color:    windowtext;
+}
+
+/* win2k image*/
+#header {
+	height: 52px;
+}
+
+#wv-left {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+#logo {
+	left: -5px;
+	top: 1px;
+	position: absolute;
+	z-index: 2;
+}
+
+#wv-line {
+	left: 0px;
+	top: 53px;
+	position: absolute;
+	z-index: 2;
+}
+
+/*#header {
+	height: 20px;
+}
+
+#wv-left {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	z-index: -1;
+}
+
+#wv-line {
+	left: 0px;
+	top: 52px;
+	position: absolute;
+	z-index: 2;
+display: none;
+}*/
+
+.frame {  
+  background-color: window;
+  /*background-color: threedface;*/
+  margin-bottom:      10px;
+  position:       relative;
+  border: 1px solid threedface;
+  -khtml-border-radius: 20px;
+}
+
+li {
+  list-style-type:    none;
+  overflow:       hidden;
+}
+
+li ul {
+  margin:       0px;
+  padding:      0px;
+  height:       20px;
+  white-space:	nowrap;
+}
+
+a {
+  display:      block;
+  padding-top:    5px;
+  padding-left:   24px; 
+  background-position:  4px 2px;
+  background-repeat:  no-repeat;
+  
+  text-decoration:  none;
+  color:    buttontext;
+
+}
+
+a:hover {
+  text-decoration:  underline;
+}
+
+a.title {
+  font-weight:    bold;
+  border-bottom:  solid 1px threeddarkshadow;
+  cursor:   pointer;
+  height:   15px;
+  background-repeat:  none;
+  background-color: threedface;
+  margin-bottom: 5px;
+}
+
+a.infotitle {
+  font-weight:      bold;
+  padding-left:     5px;
+  cursor:           pointer;
+}
+
+.preview {
+  padding:      5px;
+  text-align:     center;
+}
+
+ul.info {
+  padding-left:       5px;
+}

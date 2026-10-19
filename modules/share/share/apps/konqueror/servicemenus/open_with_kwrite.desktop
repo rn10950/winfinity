@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=all/allfiles
+Actions=openWithKWrite
+
+[Desktop Action openWithKWrite]
+Name=Open with KWrite
+Icon=kwrite
+Exec=kwrite %U

@@ -1,0 +1,7 @@
+<!DOCTYPE kpartplugin>
+<kpartplugin library="librsyncplugin" version="4" name="RsyncPlugin" >
+ <ToolBar newline="true" noMerge="1" name="locationToolBar" fullWidth="true" >
+  <text>Rsync Toolbar</text>
+ </ToolBar>
+ <ActionProperties/>
+</kpartplugin>

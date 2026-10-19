@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/bin/bash -c "$HOME/.winfinity/scripts/firstrun.sh"
+Hidden=false
+NoDisplay=false
+X-TDE-AutostartOnce=false
+Name=Winfinity First Run Script
+Comment=Runs at first TDE start for a new Winfinity user

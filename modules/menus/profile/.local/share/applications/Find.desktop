@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec[$e]=kfind
+GenericName=
+Icon=preferences-system-search-symbolic
+Name=Find
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-TDE-SubstituteUID=false
+X-TDE-Username=

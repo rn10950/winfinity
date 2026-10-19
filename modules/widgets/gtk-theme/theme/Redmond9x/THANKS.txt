@@ -1,0 +1,7 @@
+This theme was forked from the GTK+ theme provided by Chicago95, and modified to work with Winfinity.
+
+https://github.com/grassmunk/Chicago95
+
+GTK 4.0 support was taken from B00merang Project's Windows 95 theme.
+
+https://github.com/B00merang-Project/windows-95

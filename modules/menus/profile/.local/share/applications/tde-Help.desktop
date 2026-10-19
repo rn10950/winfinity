@@ -1,0 +1,16 @@
+[Desktop Entry]
+Categories=Qt;TDE;Core;
+Comment=
+Exec[$e]=khelpcenter
+GenericName=
+Icon=khelpcenter
+Name=Help and Support
+OnlyShowIn=TDE;
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-DocPath=khelpcenter/index.html
+X-TDE-SubstituteUID=false
+X-TDE-Username=

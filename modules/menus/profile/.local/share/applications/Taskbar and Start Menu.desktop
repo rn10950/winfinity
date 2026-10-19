@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec[$e]=tdecmshell %i kicker_config kcmtaskbar
+GenericName=
+Icon=kicker
+Name=Taskbar and Start Menu
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-TDE-SubstituteUID=false
+X-TDE-Username=

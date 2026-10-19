@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec[$e]=tdecmshell kcm_knetworkconfmodule
+GenericName=
+Icon=lan_browsing
+Name=Network Connections
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-TDE-SubstituteUID=false
+X-TDE-Username=

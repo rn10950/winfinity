@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Exec[$e]=kfmclient openProfile filemanagement /home/$USER
+GenericName=
+Icon=kfm_home
+Name=Personal Files (Home)
+Path[$e]=/home/$USER
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-TDE-SubstituteUID=false
+X-TDE-Username=
