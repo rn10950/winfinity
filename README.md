@@ -83,8 +83,9 @@ Provisions were left in directory naming schemes to allow the eventual addition 
 1. Create new containing folder under `/custom-modules/` for your project. If `/custom-modules/` doesn't exist create it, as that directory is included in the default .gitignore.
 2. Create an executable file called install.sh, which will be the script to install your module. On execution, install.sh will be passed $VARS, which is a path to a script to be sourced. Several variables will be set by the install system when called, please see an incomplete (but fully functional) list below. Including the following at the top of your script should set everything up:
 
-      [[ -z $VARS ]] && exit 1
-      source $VARS
+      `[[ -z $VARS ]] && exit 1`
+
+      `source $VARS`
 
 
 ## Installing files via script:
