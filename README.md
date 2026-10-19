@@ -1,5 +1,7 @@
 # Winfinity Installer
 
+Winfinity is a theme for Trinity Desktop that aims to preserve the traditional Windows workflow. It also contains several widget themes for various widget toolkits.
+
 ![Winfinity Screenshot](docs/res/winfinity.png)
 
 ## Debian Instructions:
@@ -134,5 +136,6 @@ Each install.sh is provided $VARS. Source $VARS in your script, and among the va
 Winfinity installer provides two template shell scripts for modules to append to for execution on TDE start. firstrun.sh runs on the first run of a new user starting Winfinity, while AUTOEXEC.sh runs every time. To add to these scripts, simply append using echo. Please be sure to use environment variables for all user paths ($USER, $HOME, etc), and remember to escape all variables 
 
 Examples:
-    echo "mkdir -p \"\$HOME/Movies\"" >> $WINF_FIRSTRUN
+
+    echo 'mkdir -p \"\$HOME/Movies\"' >> $WINF_FIRSTRUN
     echo "/bin/xeyes" >> $WINF_AUTOEXEC
