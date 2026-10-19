@@ -4,6 +4,10 @@ Winfinity is a theme for Trinity Desktop that aims to preserve the traditional W
 
 ![Winfinity Screenshot](docs/res/winfinity.png)
 
+![Winfinity Screenshot 2](docs/res/screenshot.png)
+
+![Winfinity Screenshot 3](docs/res/screenshot2.png)
+
 ## Debian Instructions:
 1. Install Debian 13 "Trixie" without a GUI using minimal/netboot iso (https://www.debian.org/CD/netinst/). De-select all Desktops on the tasksel screen (leave standard system utilities).
 ![Software Selection Screen](docs/res/tasksel.png)
