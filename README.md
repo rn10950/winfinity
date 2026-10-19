@@ -80,10 +80,12 @@ Provisions were left in directory naming schemes to allow the eventual addition 
 
 # Development Info and Custom Modules
 ## Adding a module:
-1. Create new containing folder under `custom-modules/` for project
+1. Create new containing folder under `/custom-modules/` for your project. If `/custom-modules/` doesn't exist create it, as that directory is included in the default .gitignore.
 2. Create an executable file called install.sh, which will be the script to install your module. On execution, install.sh will be passed $VARS, which is a path to a script to be sourced. Several variables will be set by the install system when called, please see an incomplete (but fully functional) list below. Including the following at the top of your script should set everything up:
-    [[ -z $VARS ]] && exit 1
-    source $VARS
+
+      [[ -z $VARS ]] && exit 1
+      source $VARS
+
 
 ## Installing files via script:
 When creating modules, use your install script to copy files. Please use the included variables as a prefix for all locations. Winfinity install system is designed to primarily use absolute paths. All files in $HOME_DIR will be copied to the selected user's home on install, and $ROOT_DIR systemwide (with superuser). Please do not target root or a user's home directory manually. The install system will place all files where they need to go, and creates a template user. Use the system's built in $USER and $HOME environment variables within copied files to ensure a portable profile.
